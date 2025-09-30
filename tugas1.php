@@ -1,7 +1,8 @@
 <?php
 
-$cinema = ["Downfall", "Evil Unbound", "Fury", "Inglourious Basterds", "Stalingrad"];
-$jsonData = json_encode($cinema);
+$film = ["Downfall", "Evil Unbound", "Fury", "Inglourious Basterds", "Stalingrad"];
+$jsonData = json_encode($film);
 
 echo $jsonData;
 ?>
+
